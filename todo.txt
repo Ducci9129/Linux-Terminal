@@ -1,0 +1,4 @@
+- Choosing to install other Operating System in ReplRoot Installation. (Linux my beloved)
+- Fix apt and install sudo on ReplRoot Installation.
+- Running graphical apps. (You could do this on the replit editor)
+- Make Linux my Girlfriend. (Impossible without the use of "Life Hacking")
