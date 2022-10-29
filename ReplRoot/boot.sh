@@ -21,8 +21,36 @@ unzip root.zip
 tar -xvf root.tar.xz
 rm -rf akuh.zip root.zip root.tar.xz
 clear
-echo "-: Welcome to ReplRoot (Debian)! :-"
-echo "-: It is highly reccomended you run pkg.sh in the ReplRoot folder first before Installing anything. :-"
-echo "-: You can clean ReplRoot by running clean.sh in the ReplRoot folder. :-"
+echo "-: Welcome to Linux Command Line (Debian)! :-"
+sleep 10s
+echo "-: Installing Linux (Debian)."
+sleep 1s
+echo "-:."
+sleep 1s
+echo "-:."
+sleep 1s
+echo "-:."
+sleep 1s
+clear
+echo "-:Installation Start!"
+sleep 10s
+apt install sudo
+sudo apt update
+sudo apt upgrade -y
+sudo apt update --fix-missing
+sudo apt install apt-utils
+clear
+echo "-: Package and Sudo setup complete. :-"
+sleep 5s
+sudo apt update
+echo "-: Finished Cleaning! :-"
+sleep 2
+clear
+echo "-:Please wait"
+sleep 3s
+echo "-: Installing git"
+sudo install git
+sleep 10s
+echo "-: Welcome to Linux Command Line!"
 ./dist/proot -S . /bin/bash
 fi
