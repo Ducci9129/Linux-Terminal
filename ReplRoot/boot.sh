@@ -36,6 +36,7 @@ echo "-:Installation Start!"
 sleep 10s
 apt install sudo
 ./dist/proot -S . /bin/bash
+fi
 sudo apt update
 sudo apt upgrade -y
 sudo apt update --fix-missing
@@ -54,4 +55,3 @@ sudo install git
 sleep 10s
 echo "-: Welcome to Linux Command Line!"
 
-fi
